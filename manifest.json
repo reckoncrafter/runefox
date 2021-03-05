@@ -15,4 +15,9 @@
 		"js": ["./runefox.js"]
 	}
 	]
+	"browser_specific_settings":{
+		"gecko":{
+			"id": "runefox@reckoncrafter.github.io"
+		}
+	}
 }
