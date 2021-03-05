@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "Runefox",
+	"version": "1.0",
+
+	"description": "Converts all letters in English text to their closest equivalent in Futhark Runes",
+
+	"icons": {
+		"48": "icons/runefox-icon.png"
+	},
+
+	"content_scripts": [
+	{
+		"matches": ["<all_urls>"],
+		"js": ["./runefox.js"]
+	}
+	]
+}
