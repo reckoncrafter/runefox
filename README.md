@@ -13,3 +13,5 @@ If you, for some bizzare reason, wish to try out this extension, here are some s
 - Select the downloaded .zip file, or the [manifest.json](./manifest.json) file in the uncompressed folder
 
 :warning: This extension is a toy, and because it processes all available text, is very slow, and can easily take up to 15 seconds to convert a website.
+
+:heavy_plus_sign: The file [torunes.cpp](./torunes.cpp) is the original program I wrote that performs this operation on text from `stdin`. It's a simple script, so it just needs to be compiled with `g++`.
